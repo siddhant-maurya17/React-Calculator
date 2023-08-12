@@ -86,7 +86,7 @@ const Calculator = () => {
             {/* Conditional rendering for error or result messages */}
             {message.includes("Error!") ? (
                 // Display specific error message based on conditions
-                <p>{num2 === "0" ? "Num 2 Cannot Be Zero" : num1 === "" ? "Num 1 Cannot Be Empty" : "Num 2 Cannot Be Empty"}</p>
+                <p>{num2 === "0" ? "Num 2 Cannot Be Zero" :(num1==="" && num2==="" ?"Num1 and Num2 Both are Empty":num1 === "" ? "Num 1 Cannot Be Empty" : "Num 2 Cannot Be Empty")}</p>
             ) : (
                 // Display result if there's no error and show state is true
                 show && <p>Result - {ans}</p>
