@@ -16,7 +16,7 @@ const Calculator = () => {
             setAns("");
             setShow(false);
         } else {
-            setMessage("Success");
+            setMessage("Success!");
             setAns(Number.parseInt(num1) + Number.parseInt(num2));
             setShow(true);
         }
@@ -29,7 +29,7 @@ const Calculator = () => {
             setAns("");
             setShow(false);
         } else {
-            setMessage("Success");
+            setMessage("Success!");
             setAns(num1 - num2);
             setShow(true);
         }
@@ -42,7 +42,7 @@ const Calculator = () => {
             setAns("");
             setShow(false);
         } else {
-            setMessage("Success");
+            setMessage("Success!");
             setAns(num1 * num2);
             setShow(true);
         }
@@ -59,7 +59,7 @@ const Calculator = () => {
             setAns("");
             setShow(false);
         } else {
-            setMessage("Success");
+            setMessage("Success!");
             setAns(num1 / num2);
             setShow(true);
         }
