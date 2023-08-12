@@ -45,3 +45,12 @@
 .error{
     color:red;
 }
+
+.container:hover{
+    border: 3px solid rgb(13, 91, 236);
+}
+button:hover{
+    color:white;
+    background-color: #282525;
+
+}
